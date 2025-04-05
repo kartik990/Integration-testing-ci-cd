@@ -1,0 +1,28 @@
+{
+  "name": "integ-testing-ci-cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/express": "^5.0.1",
+    "ts-jest": "^29.3.0",
+    "vitest": "^3.0.9",
+    "vitest-mock-extended": "^3.0.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@types/supertest": "^6.0.3",
+    "express": "^4.21.2",
+    "prisma": "^6.5.0",
+    "supertest": "^7.1.0",
+    "zod": "^3.24.2"
+  }
+}
