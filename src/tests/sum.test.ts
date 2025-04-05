@@ -45,7 +45,7 @@ describe("GET /sum", () => {
         b: "2",
       })
       .send();
-    expect(res.statusCode).toBe(200);
+    expect(res.statusCode).toBe(20);
     expect(res.body.answer).toBe(3);
   });
 
